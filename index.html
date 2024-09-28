@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Online</title>
+    <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Produtos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="home">
+        <section id="products">
+            <h1>Produtos</h1>
+            <div class="product">
+                <img src="/criativo-65b5100c38e7fMjcvMDEvMjAyNCAxMWgxNQ==.jpg" alt="Produto 1">
+                <h2>Produto 1</h2>
+                <p>Descrição do produto 1. Um produto incrível que você vai adorar!</p>
+                <p>R$ 99,99</p>
+                <button onclick="buyProduct('Produto 1', 99.99)">Comprar</button>
+            </div>
+            <div class="product">
+                <img src="/images.jfif" alt="Produto 2">
+                <h2>Produto 2</h2>
+                <p>Descrição do produto 2. Outro produto incrível que você vai adorar!</p>
+                <p>R$ 149,99</p>
+                <button onclick="buyProduct('Produto 2', 149.99)">Comprar</button>
+            </div>
+            <!-- Adicione mais produtos conforme necessário -->
+        </section>
+    </main>
+    <footer id="contact">
+        <p>Contato: contato@lojaonline.com</p>
+    </footer>
+    <script src="/assets/scripts.js"></script>
+</body>
+</html>
